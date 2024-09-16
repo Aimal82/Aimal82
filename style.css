@@ -1,0 +1,188 @@
+body {  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+    background-color: rgba(229, 228, 226,0.2);  
+    color: #000;  
+}  
+  
+.bebas-neue-regular {  
+    font-family: "Bebas Neue", sans-serif;  
+    font-weight: 400;  
+    font-style: normal;  
+  }  
+.rubik-<uniquifier> {  
+  font-family: "Rubik", sans-serif;  
+  font-optical-sizing: auto;  
+  font-weight: <weight>;  
+  font-style: normal;  
+}  
+header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px 40px;  
+    border-bottom: 5px solid #000;       
+}  
+  
+.Name {  
+    font-size: 15px;  
+    font-family: "Rubik", sans-serif;  
+    font-weight: bold;  
+}  
+  
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    align-items: center;  
+    font-family: "Bebas Neue", sans-serif;  
+}  
+  
+nav ul li {  
+    margin-left: 20px;  
+}  
+  
+nav ul li a {  
+    text-decoration: none;  
+    color: #000;  
+    font-size: 12px;  
+}  
+  
+nav ul li span {  
+    font-size: 12px;  
+    font-weight: bold;  
+}  
+  
+#Quote {  
+    padding: 100px 40px;  
+    font-family: "Bebas Neue", sans-serif;  
+    font-size: 500%;  
+    animation-name: appear; 
+    animation-duration: 2s; 
+}  
+@keyframes appear{ 
+    from{transform: translateY(100px) } 
+} 
+@keyframes rotate{
+    from{transform: translateZ(50%,50%);}
+}
+/* Define the keyframes for the shake animation */
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    10% { transform: translate(-5px, 0); }
+    20% { transform: translate(5px, 0); }
+    30% { transform: translate(-5px, 0); }
+    40% { transform: translate(5px, 0); }
+    50% { transform: translate(-5px, 0); }
+    60% { transform: translate(5px, 0); }
+    70% { transform: translate(-5px, 0); }
+    80% { transform: translate(5px, 0); }
+    90% { transform: translate(-5px, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+/* Apply the shake animation */
+.shake {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    font-size: 20px;
+    animation: shake 90s; /* Duration of 0.5 seconds */
+    animation-iteration-count: infinite; /* Repeat infinitely */
+}
+.shake:hover {
+    animation: shake 0.5s;
+}
+  
+.main-content h1 {  
+    font-size: 70px;  
+    font-weight: bold;  
+    line-height: 1.2;  
+    margin: 0;  
+    font-family: "Bebas Neue", sans-serif;  
+}  
+.header-2 {  
+    display: flex;  
+    justify-content:space-between;  
+    align-items: center;  
+    padding: 10px 40px;  
+    border-bottom: 3px solid #000; 
+}  
+#ABOUT-ME { 
+    justify-content: space-between; 
+    text-align: left; 
+    font-family: "Bebas Neue", sans-serif;  
+    padding: 100px 40px; 
+}
+.image1{
+    width: auto;
+    height: 500px;
+    border-radius: 50px;
+    position:relative;
+    right: 1px;
+    left: 1500px ;
+    top: -400px;
+    animation-name: appear; 
+    animation-duration: 2s; 
+}
+.image2 {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+    animation-name: appear; 
+    animation-duration: 2s; 
+    position:relative;
+    right: 1px;
+    left: 600px;
+    top: -400px;
+}
+.image3 {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+    animation-name: appear; 
+    animation-duration: 2s; 
+    position:relative;
+    right: 1px;
+    left: 100px;
+    top: -670px;
+}
+.image6 {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+    animation-name: appear; 
+    animation-duration: 2s; 
+    position:relative;
+    right: 1px;
+    left: -940px;
+    top: -350px;
+}
+.image4 {
+    width: 15%;
+    height: 30%;
+    border-radius: 50px;
+    animation-name: shake; 
+    animation-duration: 2s; 
+    position:relative;
+    right: 100px;
+    left: 1450px;
+    top: -550px;
+}
+#SKILLS {
+    justify-content: space-between; 
+    text-align: left; 
+    font-family: "Bebas Neue", sans-serif;  
+    padding: 100px 40px;
+    font-size: x-large;
+    position: fixed;
+    left: 450px;
+    top: -700px;
+}
+
+
+
+ 
